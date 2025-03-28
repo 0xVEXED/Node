@@ -17,7 +17,7 @@ fi
 sleep 1
 
 # Отображаем логотип
-curl -s https://raw.githubusercontent.com/0xVEXED/Node/blob/main/logo.sh | bash
+curl -s https://raw.githubusercontent.com/0xVEXED/Node/main/logo.sh | bash
 
 # Меню
 echo -e "${YELLOW}Выберите действие:${NC}"
