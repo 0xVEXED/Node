@@ -11,10 +11,10 @@ NC='\033[0m'
 curl -s https://raw.githubusercontent.com/0xVEXED/Node/main/logo.sh | bash
 
 # Меню
-echo -e "${RED}Выберите действие:${NC}"
+echo -e "${BLUE}Выберите действие:${NC}"
 echo -e "${GREEN}1) Установка ноды${NC}"
 echo -e "${GREEN}2) Обновление ноды${NC}"
 echo -e "${GREEN}3) Удаление ноды${NC}"
 
-echo -e "${RED}Введите номер:${NC} "
+echo -e "${BLUE}Введите номер:${NC} "
 read choice
